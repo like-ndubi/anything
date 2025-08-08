@@ -85,21 +85,6 @@ const Navbar = () => {
                     <span>Log Out</span>
                   </button>
                 </li>
-              </>
-            ) : (
-              <>
-                <li className="nav-item">
-                  <Link to="/signin" className="icon-link">
-                    <FaSignInAlt />
-                    <span>Sign In</span>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link to="/signup" className="icon-link">
-                    <FaUserPlus />
-                    <span>Sign Up</span>
-                  </Link>
-                </li>
                 <li className="nav-item">
                   <Link to="/addproduct" className="icon-link">
                     <FaPlusCircle />
@@ -112,6 +97,22 @@ const Navbar = () => {
                     <span>Join Us</span>
                   </Link>
                 </li>
+              </>
+            ) : (
+              <>
+                <li className="nav-item">
+                  <Link to="/" className="icon-link">
+                    <FaSignInAlt />
+                    <span>Sign In</span>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/signup" className="icon-link">
+                    <FaUserPlus />
+                    <span>Sign Up</span>
+                  </Link>
+                </li>
+               
                 <li className="nav-item">
                   <Link to="/Getproducts" className="icon-link">
                     <FaHome />
